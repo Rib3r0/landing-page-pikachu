@@ -136,3 +136,50 @@ footer{
     color: var(--secondary-color);
 
 }
+
+@media (max-width:960px) {
+    :root{
+
+        --space-default:30px;
+    
+    }
+    main{
+
+        grid-template-columns: 1fr;
+    
+    }
+    .pikachu-image{
+
+        transform: translate(-50%,-60%);
+    
+    
+    }
+    .title{
+
+        place-self: start center;
+
+    }
+    .description{
+        
+        grid-row: 2/3;
+        grid-column: 1;
+        place-self: center;
+        text-align: center;
+    
+    }
+    .action{
+        grid-row: 2/3;
+        grid-column: 1;
+        place-self: end center ;
+
+    
+    }
+
+    footer{
+
+        display: none;
+
+    }
+
+
+}
